@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	min-height: 100vh;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: "poppins";
+	background: #91bbd9;
+}
+
+.header{
+	position: absolute;
+	margin-left: 2rem;
+	display: flex;
+	padding: 10px;
+	z-index: 100;
+}
+.logo img{
+	height: 90px;
+	width: 90px;
+	margin-right:25rem;
+}
+.navbar{
+	padding-top: 20px;
+}
+.navbar a{
+	padding: 5px 10px;
+	margin-right: 20px;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 500;
+	color: darkgreen;
+	border-radius: 5px;
+}
+
+.navbar a:hover{
+	background: darkgreen;
+	color: white;
+}
+
+.main-section{
+	position: relative;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+#text{
+	font-size: 8rem;
+	font-weight: 500px;
+	color: whitesmoke;
+	position: absolute;
+}
+
+.main-section img{
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	pointer-events: none;
+}
+
+.about-us{
+	position: relative;
+	margin-top: 3rem;
+	padding: 100px;
+	background: #003329;
+	color: white;
+}
+
+.about-us h2{
+	font-size: 48px;
+	margin-bottom: 20px;
+
+}
